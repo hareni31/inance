@@ -1,0 +1,700 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/*  {
+   outline: 1px solid red; visualizes overflow during dev 
+ } */
+ body {
+   overflow-x: hidden;
+ }
+ 
+.one{
+    width: 100%;
+    height: 54px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.left,.right{
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+}
+.left i,.right i{
+    color: #ff8a1d;
+}
+
+.navbar{
+    background-color: #d1e3ff;
+    margin-bottom:0 ;
+    padding: 20px 0px; 
+    width: 100%;
+    height: 44px;
+    font-family: "Lato", sans-serif;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.nav-1{
+    color:#0355cc;
+    font-size: 24px;
+    padding: 10px 15px;
+}
+.nav-2 {
+   width: 60%;
+  font-size: 16px;
+   display: flex;
+  justify-content: flex-end;
+    color:black;
+   
+}
+.nav-2 a{
+    color: black;
+    text-decoration: none;
+    padding-right: 25px;
+   
+   
+}
+
+.nav-2 a span{
+    color:#0355cc;
+
+}
+.menu{
+    display: none;
+}
+.lp{
+    background-color: #d1e3ff;
+    width: 100%;
+    height: 760px;
+    display: flex;
+    /* margin-bottom: 30px; */
+    margin-top: -2px;
+}
+.content-lp{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.details{
+    width: 555px;
+    height: 404px;
+    margin-top: 150px;
+   
+}
+.details h1{
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 40px;
+    color:#0355cc;
+    width: 230px;
+}
+.details p{
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+     width: 530px;
+     line-height: 1.5;
+     margin-bottom: 20px;
+}
+.details button{
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 16px;
+    padding: 10px 45px;
+    color: white;
+    background-color: #ff8a1d;
+    border: none;
+    border-radius: 6px;
+}
+.image{
+    width: 555px;
+    height: 100%;
+   
+}
+.image img{
+    width: 100%;
+    height: 100%;
+} 
+.overlay{
+    width: 100%;
+   height: 300px;
+   /* background-color: white; */
+   display: flex;
+   justify-content: center;
+   align-items: start;
+  margin-top: -100px;
+   gap: 30px;
+   position: absolute;
+   z-index: 1000px;
+   margin-bottom: 160px;
+}
+.overlay .bx1{
+   width: 300px;
+   height: 224px;
+   border: none;
+   border-radius: 8px;
+    background-color: white;
+   box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+
+}
+.overlay .bx1 h3{
+   font-family: "Merriweather Sans", sans-serif;
+   font-size: 20px;
+}
+.overlay .bx1.two{
+   background-color: #ff8a1d;
+   color: white;
+}
+
+.lp-2{
+    /* background-color:rgb(248, 239, 239); */
+    width: 100%;
+    height: 452px;
+    margin-top: 220px;
+     margin-bottom: 30px; 
+    
+ }
+ .content-lp-2{
+    width: 1170px;
+    height: 452px;
+    padding:0;
+    padding-left:320px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+ }
+ .details-2{
+    width: 488px;
+    height: 245px;
+    margin-top: 80px;
+   
+ }
+ .details-2 h1{
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 32px;
+    margin-bottom: 5px;
+ 
+ }
+ .details-2 p{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+     width: 450px;
+     line-height: 1.5;
+     margin-bottom: 20px;
+ }
+ .details-2 button{
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 16px;
+    padding: 10px 45px;
+    color: white;
+    background-color:#0355cc;
+    border: none;
+    border-radius: 2px;
+ }
+ .image-2{
+    width: 623px;
+    height: 453px
+   
+ }
+ .image-2 img{
+    width: 100%;
+    height: 100%;
+ }
+ 
+ 
+ 
+ .lp-3{
+    background-color: #d1e3ff;
+ 
+    width: 100%;
+    height: 800px;
+    /* padding-top: 120px;
+    padding-bottom: 160px; */
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+     margin-bottom: 30px; 
+    
+ }
+ .content-lp-3{
+    width: 1170px;
+    height: 452px;
+   padding-left:  210px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    /* background-color: #1750ab; */
+   
+ }
+ .details-3{
+    width: 575px;
+    height: 280px;
+   
+   
+ }
+ .details-3 h1{
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 32px;
+    margin-bottom: 10px;
+    width: 500px;
+    color: #0355cc;
+ 
+ }
+ .details-3 p{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+     width: 500px;
+     line-height: 1.5;
+     margin-bottom: 20px;
+ }
+ .details-3 button{
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 16px;
+    padding: 10px 45px;
+    color: white;
+    background-color: #ff8a1d;
+    border: none;
+    border-radius: 2px;
+ }
+ .image-3{
+    width: 555px;
+    height: 603px
+   
+ }
+ .image-3 img{
+    width: 90%;
+    height: 100%;
+ }
+ 
+ 
+ .ourservice{
+    width: 100%;
+    height: 500px;
+     background-color: white; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    /* background-color: aqua; */
+    gap: 30px;
+   
+   
+    
+ }
+ .ourservice .boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-left: 20px;
+  
+ 
+ }
+ .ourservice h2{
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 32px;
+    padding-left: 30px;
+    
+ }
+ .ourservice .bx1{
+    width: 350px;
+    height: 224px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+ 
+ }
+ .ourservice img{
+  width: 65px;
+  height: 65px;
+ }
+ .ourservice .bx1 h3{
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+ }
+ .ourservice .bx1 p{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    text-align: center;
+ }
+ .ourservice .bx1.two{
+    background-color: #ff8a1d;
+    color: white;
+ }
+ .ourservice button{
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 16px;
+    padding: 10px 45px;
+    color: white;
+    background-color:#0355cc;
+    border: none;
+    border-radius: 2px;
+ }
+ 
+ 
+ .client{
+    width: 100%;
+    height: 500px;
+    background-color: white; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: start;
+    /* background-color: aqua; */
+    gap: 30px;
+   
+    margin-top: 70px;
+    
+ }
+ 
+ .client h2{
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 32px;
+    margin-bottom: 70px;
+    padding-left: 30px;
+
+    
+ }
+ .client .boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+ 
+ }
+ 
+ .client .bx1{
+    width: 500px;
+    height: 250px;
+    border: none;
+    border-radius: 8px;
+     background-color: white;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content:start;
+    gap: 20px;
+    padding: 10px;
+ 
+ }
+ 
+ .client .bx1 .img-con{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    /* width: 200px; */
+ }
+ .client .bx1 .img-con .text{
+    display: flex;
+    flex-direction: column;
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    margin-bottom: 10px;
+    position: relative;
+ 
+ }
+ .client .bx1 .img-con .text .stars i{
+   color: #ff8a1d;
+ 
+ }
+ .client .bx1 .img-con .text .quote i{
+   position: absolute;
+   right: -180px;
+   top:12px
+ 
+ }
+ 
+ 
+ .client img{
+  width: 125px;
+  height: 121px;
+  border-radius: 50%;
+  float: left;
+ }
+ .client .bx1 p{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+ }
+ .client .ang{
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+ }
+ .client button{
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 20px;
+    padding: 15px 20px;
+    color: white;
+    background-color:#0355cc;
+    border: none;
+    border-radius: 2px;
+   
+ }
+ 
+ 
+ .lp-4{
+    /* background-color: #d1e3ff; */
+ 
+    width: 100%;
+    height: 800px;
+    /* padding-top: 120px;
+    padding-bottom: 160px; */
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+     margin-bottom: 30px; 
+    
+ }
+ .content-lp-4{
+    width: 1170px;
+    height: 452px;
+     padding-left:  210px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+    /* background-color: #1750ab; */
+   
+ }
+ .details-4{
+    width: 555px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background-color: transparent;
+   
+ }
+ .details-4 h1{
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 32px;
+    margin-bottom: 30px;
+   
+ 
+ }
+ .details-4 .int{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    width: 500px;
+    height: 230px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: left;
+    color: black;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    
+ }
+ .details-4 .msg{
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    border: none;
+    width: 500px;
+    border-radius: 8px;
+    background-color: white;
+    text-align: left;
+    height: 520px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+ }
+ .details-4 button.send{
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 16px;
+    width: 143px;
+    height: 45px;
+    color: white;
+    background-color: #0355cc;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+ }
+ .image-4{
+    width: 555px;
+    height: 100%;
+ }
+ .image-4  iframe{
+   width: 100%;
+   height: 500px;
+}
+ 
+ .getint{
+   width: 100%;
+   height: 550px;
+   background-color: #0a0f43;
+   padding: 20px;
+   margin-bottom: 30px;
+ }
+ .getint h1{
+   text-align: center;
+   color:white;
+   font-family: "Lato", sans-serif;
+   font-size: 24px;
+   padding-top: 20px;
+
+ }
+
+ .getint .icons{
+   width: 60%;
+   margin-top: 60px;
+   margin-left: 300px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+ }
+ .getint .bxe1{
+   height: 200px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   color: white;
+   
+ }
+ .getint .bxe1 h4{
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   text-align: start;
+   margin-top: 30px;
+ }
+ .getint .bxe1 i{
+   background-color: #0355cc;
+   width: 90px;
+   height: 90px;
+   border-radius: 50%;
+   font-size: 26px;
+   text-align: center;
+   padding-top: 30px;
+   margin-left: 60px;
+ }
+
+ .getint .bxe1 hr{
+  width: 350px;
+  margin-left: 150px;
+  margin-top: -60px;
+  
+}
+
+.getint .bxe2{
+   height: 200px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   color: white;
+   
+ }
+ .getint .bxe2 h4{
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   text-align: start;
+   margin-top: 30px;
+   margin-left: -30px;
+ }
+ .getint .bxe2 i{
+   background-color: #0355cc;
+   width: 90px;
+   height: 90px;
+   border-radius: 50%;
+   font-size: 26px;
+   text-align: center;
+   padding-top: 30px;
+   margin-left: 0;
+ }
+
+ .getint .bxe2 hr{
+  width: 350px;
+  margin-left: 90px;
+  margin-top: -60px;
+  
+}
+
+.getint .bxe3{
+   height: 200px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   color: white;
+   
+ }
+
+ .getint .bxe3 h4{
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   text-align: start;
+   margin-top: -10px;
+   margin-left: -15px;
+
+ }
+ .getint .bxe3 i{
+   background-color: #0355cc;
+   width: 90px;
+   height: 90px;
+   border-radius: 50%;
+   font-size: 26px;
+   text-align: center;
+   padding-top: 30px;
+   margin-left: 0;
+ }
+ .getint .bxe3 hr{
+   display: none;
+ }
+.getint .f-icons{
+   width: 158px;
+   height: 34px;
+   background-color: white;
+   color: #0355cc;
+   border: none;
+   border-radius: 4px;
+   margin-bottom: 20px;
+   text-align: center;
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   text-align: center;
+   margin: 40px;
+  margin-left: 660px;
+}
+.getint .f-icons i{
+   padding: 10px 10px;
+}
+
+.getint .horz{
+   margin-left: 15px;
+   color: white;
+
+}
+.getint h3{
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   color: white;
+   text-align: center;
+   margin-top: 20px;
+}
+
+

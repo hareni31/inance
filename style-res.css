@@ -1,0 +1,370 @@
+
+@media(max-width:1025px){
+
+ .lp,.lp-2 ,.lp-3,.lp-4,.ourservice,.client,.getint{
+    width: 100%;
+    height: auto;
+ }  
+ .content-lp,.content-lp-2,.content-lp-3,.content-lp-4{
+    width:100%;
+    height: auto;
+ }  
+.one{
+    width: 100%;
+    height: 54px;
+  
+}
+.left,.right{
+    padding: 8px;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+}
+
+.details,.image{
+    width: 50%;
+   
+}
+.details{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.image img{
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+} 
+.content-lp-2,.content-lp-3{
+    padding-left: 20px; 
+ }
+
+.details-2,.image-2{
+    width: 50%;
+   
+}
+.ourservice .bx1{
+    width: 300px;
+ 
+ }
+ .client .bx1{
+    width: 450px;
+ 
+ }
+ .content-lp-4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding-left:0 ;
+    gap: 20px;
+
+ }
+ .details-4,.image-4{
+    width: 40%;
+   
+}
+ .details-4{
+    padding-left: 40px;
+ }
+ .details-4 h1{
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 32px;
+    margin-bottom: 30px;
+   
+ 
+ }
+ .details-4 .int{
+    width: 350px;
+    height: 230px;
+    padding: 5px;
+    
+ }
+ .details-4 .msg{
+    width: 350px;
+    height: 230px;
+    padding: 20px;
+ }
+ .image-4{
+    width: 50%;
+   
+}
+  
+.getint .icons{
+    
+    margin-left: 160px;
+    
+  }
+  .getint .bxe1 h4{
+    
+    margin-left: 65px;
+ 
+  }
+  .getint .bxe3 h4{
+    
+    margin-left: -25px;
+ 
+  }
+  .getint .f-icons{
+   
+   margin-left: 415px;
+ }
+}
+
+
+@media(max-width:950px){
+    .overlay{
+        width: 90%;
+        margin-left: 20px ;
+      }
+    .ourservice .boxes{
+      width: 90%;
+    }
+    .image-2{
+        width: 40%;
+        
+    }
+    .details-3,.image-3{
+        width: 40%;
+        padding: 0;
+    }
+    .details-3 p, .details-3 h1{
+        width: 100%;
+    }
+    .client .boxes{
+
+        flex-wrap: wrap;
+     
+     }
+    .client .bx1{
+        width: 90%;
+
+    }
+    .client .bx1 .img-con .text .quote i{
+        position: absolute;
+        right: -380px;
+        top:12px
+      
+      }
+      .details-4,.image-4{
+        width: 40%;
+      }
+      .image-4{
+        width: 50%;
+        margin-left: 40px;
+      }
+      .getint .icons{
+        width: 50%;
+        margin-top: 60px;
+        margin-left: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+      .getint .bxe1 hr, .getint .bxe2 hr{
+        width: 200px;
+       
+        
+      }
+      .getint .f-icons {
+       margin-left: 360px;
+     }
+      
+     
+}
+
+
+
+@media(max-width:769px){
+    .one{
+        justify-content: space-around;
+    }
+    .nav-2 {
+     display: none;
+    }
+
+
+  .nav-2.show {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    justify-content: flex-start;
+    background-color: rgba(116, 113, 113, 0.3);
+    position: absolute;
+    top: 100px;
+    height: 200px;
+    right: 5px;
+    width:65%;
+    backdrop-filter:  blur(5px);
+    padding: 15px;
+    border-radius: 5px;
+    gap: 10px;
+   }
+
+   .nav-2 a {
+    color:black;
+    text-decoration: none;
+    margin-bottom: 20px;
+    }
+
+  
+    .menu{
+        display: block;
+        padding-right: 80px;
+        font-size: 26px;
+    }
+    .details h1,   .details p{
+        width: 80%;
+    }
+    .image{
+       margin-top: 30px;
+       
+    }
+    .overlay{  
+      margin-top: -50px;
+     display: flex;
+     flex-wrap: wrap;
+     height: auto;
+     margin-bottom: 40px;
+    
+    }
+    .content-lp-2{
+        margin-top: 500px;
+        align-items: start;
+
+     }
+     .details-2{
+        width: 40%;
+     }
+     .details-2 h1,   .details-2 p{
+        width: 80%;
+        
+    }
+    .details-2 p{
+        text-align: justify;
+    }
+    .content-lp-3{
+        align-items:center;
+     }
+     .image-3{
+        width: 50%;
+        margin-top: 80px;
+
+     }
+    .details-3{
+        /* margin-top: 70px; */
+        width: 40%;
+     }
+     .details-3 h1,  .details-3 p{
+        width: 80%;
+        
+    }
+    .details-3 {
+        text-align: justify;
+    }
+    .ourservice .boxes{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+     }
+     .ourservice .boxes p{
+        width: 90%;
+     }
+    
+     .client .boxes{
+        height: auto;
+        flex-wrap: wrap;
+        width: 50%;
+    
+     }
+     .client .bx1 .img-con .text .quote i{
+        position: absolute;
+        right: -30px;
+        top:12px
+      
+      }
+      .content-lp-4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:start;
+        gap: 50px;
+     }
+     .details-4{
+        padding-left: 0px;
+        flex-direction: column;
+        align-items: center;
+        justify-content:start;
+     }
+     .getint .icons{
+        width: 60%;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 170px;
+       
+      }
+      .getint .bxe1 i{
+        margin-left: 55px;
+      }
+      .getint .bxe1 hr ,.getint .bxe2 hr ,.getint .bxe3 hr {
+        width: 100px;           
+        transform: rotate(90deg);
+       
+        transform-origin: left start;
+        border: none;
+        height: 2px;            
+        background-color: white;
+        
+      }
+      .getint .bxe1 hr {
+        margin-left: 50px;
+        margin-top: 28px;
+      }
+      .getint .bxe1 h4{
+        margin-top: 23px;
+        margin-left: -10px;
+ 
+      }
+      .getint .bxe2 i{
+        margin-left: -10px;
+      }
+       .getint .bxe2{
+          padding-left: -90px;  
+        margin-top: 10px;
+         
+       } 
+       .getint .bxe2 hr {
+         margin-left: -20px; 
+        margin-top: 32px;
+      } 
+  .getint .bxe3 {
+    margin-top: 20px;
+    margin-left: -20px;
+  }
+  .getint .bxe3 hr{
+    display: block;
+    margin-left:-1px; 
+    margin-top: 32px;
+  }
+  .getint .bxe3 h4{
+    margin-top: 20px;
+    margin-left: -15px;
+ 
+  }
+  
+  .getint .f-icons{
+   margin-left: 290px;
+ }
+}
+
+@media(max-width:426px){
+   .nav-2.show {
+    
+    top: 130px;
+   }
+}
+

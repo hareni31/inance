@@ -1,0 +1,297 @@
+@media(max-width:461px){
+    
+
+ .one{
+   
+  flex-wrap: wrap;
+  height: auto;
+  padding: 0;
+}
+.left,.right{
+  width: 90%;
+  padding: 10px;
+}
+.navbar{
+    padding-left: 0;
+}
+    .content-lp{
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        height: fit-content;
+        padding: 0;
+     }
+      .details, .image{
+        width: 80%;
+        padding: 0;
+    }
+    .overlay{
+        width: 90%;
+     position: static;  
+     margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 20px;
+    justify-content: flex-start;
+    align-self: start;
+    
+    }
+    .content-lp-2{
+        margin-top: -180px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: start;
+        padding: 0;
+     }
+      .details-2, .image-2{
+        width: 80%;
+        height: 100%;
+        margin-left: 30px;
+    }
+        
+ .image-2{
+        width: 75%;
+        height: 100%;
+        padding-left: 10px;
+        
+    }
+    .details-2{
+        margin-bottom: 20px;
+        padding: 0;
+        
+    }
+    .details-2,  .details-2 p,.details-2 h1{
+       text-align: center;
+       margin-left: 20px; 
+    }
+    .details-2 button{
+        
+        margin-left: -15px; 
+     }
+     
+     .content-lp-3{
+        /* margin-top: -180px; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        padding: 0;
+        margin: 0;
+     }
+      .details-3, .image-3{
+        width: 80%;
+        height: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+        
+    }
+    .ourservice{
+        width: 80%;
+        margin-left: 0;
+        align-items: start;
+        justify-content: start;
+     }
+     .ourservice h2{
+         margin-left: 35px;
+     }
+    .ourservice .boxes{
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: start;
+     }
+     .ourservice button{
+       
+       margin-left: 30px;
+     } 
+     .client{
+        padding-left: 20px;
+        
+        align-items: start;
+     }
+    .client h2{
+        
+        padding-left: 0;
+        text-align: start;
+        width: 80%;
+    
+        
+     }
+    .client .boxes{
+        height: auto;
+        flex-wrap: wrap;
+        width: 95%;
+    
+     }
+     .client .bx1 .img-con .text .quote i{
+        position: absolute;
+        right: -15px;
+        padding-left: 10px;
+        top:12px
+      
+      }
+      .content-lp-4{
+       
+       
+        align-items: start;
+        justify-content: start;
+        gap: 50px;
+        
+        /* background-color: #1750ab; */
+       
+     }
+      .details-4,.image-4{
+        width: 90%;
+        padding: 10px;
+      }
+     .image-4{
+        width: 90%;
+        margin-left: 20px;
+      }
+      .details-4 .int,.details-4 .msg{
+        width: 60%;
+     }
+     .getint h1{
+        text-align: start;
+        margin-left: 80px;
+     }
+     .getint h3, .getint .horz{
+        margin-left: 40px;
+        width: 60%;
+     }
+      .getint .icons{
+       margin-left: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items:start;
+        padding: 0;
+       
+      }
+      .getint .bxe1 i{
+        margin-left: -10px;
+       
+      }
+     
+      .getint .bxe1 hr {
+        margin-left: -16px;
+        margin-top: 28px;
+      }
+      .getint .bxe1 h4{
+        margin-top: 23px;
+        margin-left: -80px;
+ 
+      }
+      
+  
+  .getint .f-icons{
+   margin-left: 70px;
+ }
+}
+@media(max-width:321px){
+    
+.details h1{
+    font-size: 32px;
+
+}
+.image img{
+    margin-top: 10px;
+} 
+.content-lp-2{
+        margin-top: -270px;
+       
+}
+.details-2 p{
+    text-align: justify;
+
+}
+.client h2{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.client .bx1 {
+    margin-bottom: 20px;
+    height: auto;
+}
+  .client .bx1 .img-con .text .quote i{
+        position: absolute;
+        right: -12px;
+        padding-left: 10px;
+        top:12px
+      
+      }
+.details-4 .int,.details-4 .msg{
+    width: 90%;
+ }
+ .getint h1{
+    text-align: start;
+    margin-left: 50px;
+ }
+ .getint h3, .getint .horz{
+    margin-left: 10px;
+    width: 90%;
+ }
+ .getint .icons{
+    margin-left: 130px;
+        
+    padding: 0;
+   
+  }
+  .getint .bxe1 i{
+    margin-left: -50px;
+  }
+ 
+  .getint .bxe1 hr {
+    margin-left: -56px;
+    margin-top: 28px;
+  }
+  .getint .bxe1 h4{
+    margin-top: 25px;
+    margin-left: -130px;
+    /* width: 95%; */
+
+  }
+  .getint .bxe2 i{
+    margin-left: -55px;
+  }
+   
+   .getint .bxe2 hr {
+     margin-left: -60px; 
+    margin-top: 32px;
+  } 
+  .getint .bxe2 h4{
+    margin-top: 30px;
+    margin-left: -75px;
+    
+    }
+.getint .bxe3 {
+margin-top: 20px;
+margin-left: -60px;
+}
+.getint .bxe3 hr{
+display: block;
+margin-left:-1px; 
+margin-top: 32px;
+}
+.getint .bxe3 h4{
+margin-top: 20px;
+margin-left: -25px;
+
+}
+
+.getint .f-icons{
+margin-left: 50px;
+
+}
+
+}
+
+
+
